@@ -14,15 +14,16 @@ function unDo(eventName, previewPic) {
 
 function setupListeners() {
     const images = document.getElementsByClassName("preview");
-    for (let image of images) {
+    for (let index = 0; index < images.length; ++index) {
+        const image = images[index];
         for (let focusEventName of ['mouseover', 'focus']) {
             image.addEventListener(focusEventName, () => upDate(focusEventName, image));
         }
         for (let lostFocusEventName of ['mouseout', 'blur']) {
             image.addEventListener(lostFocusEventName, () => unDo(lostFocusEventName, image));
         }
-        image.setAttribute("tabIndex", "2");
+        image.setAttribute("tabindex", `${index + 1}`);
     }
-    const image = document.getElementById('image');
-    image.setAttribute("tabIndex", "1");
+    const imageDiv = document.getElementById('image');
+    imageDiv.setAttribute("tabindex", `${images.length}`);
 }
