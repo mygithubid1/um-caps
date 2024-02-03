@@ -22,8 +22,8 @@ function setupListeners() {
         for (let lostFocusEventName of ['mouseout', 'blur']) {
             image.addEventListener(lostFocusEventName, () => unDo(lostFocusEventName, image));
         }
-        image.setAttribute("tabindex", `${index + 1}`);
+        image.setAttribute("tabindex", "0");
     }
     const imageDiv = document.getElementById('image');
-    imageDiv.setAttribute("tabindex", `${images.length + 1}`);
+    imageDiv.setAttribute("tabindex", "-1");
 }
