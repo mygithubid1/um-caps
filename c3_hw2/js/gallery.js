@@ -25,5 +25,5 @@ function setupListeners() {
         image.setAttribute("tabindex", `${index + 1}`);
     }
     const imageDiv = document.getElementById('image');
-    imageDiv.setAttribute("tabindex", `${images.length}`);
+    imageDiv.setAttribute("tabindex", `${images.length + 1}`);
 }
