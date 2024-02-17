@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code up</title>
+    <link rel="shortcut icon" href="images/company-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script defer src="js/scripts.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="wrapper" class="d-flex flex-column" data-bs-spy="scroll" data-bs-target="#company-navbar">
+
+    <nav class="navbar navbar-expand-md bg-body fixed-top border-bottom border-3 border-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/company-logo.svg" alt="Code up company logo" width="30" height="30"
+                     class="d-inline-block align-text-top border-2 border-primary">
+                Code up
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+                    aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="nav nav-pills me-auto fw-bolder" id="company-navbar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#send-message">Message</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex-grow-1">
+        <article class="container py-4">
+            <header class="fs-2 fw-bolder pb-2" id="about-us">About</header>
+            <div class="row">
+                <div class="col-md-6 about-us__img side-img" role="img"
+                     aria-label="Team members sitting in a conference room.">
+                    &nbsp;
+                </div>
+                <section class="col-md-6 col-lg-4">
+                    <p>CODE UP is a fast-growing software company that keeps customer and quality at the heart of
+                        everything done. Our mission is to take our customers from idea to a delightful user
+                        experience
+                        at light speed.</p>
+                    <p>We deliver web applications and guarantee customer satisfaction at a price you can't find
+                        elsewhere. We offer <strong>100% money back option within 7 days of project
+                            commencement</strong> if you don't want to work with us.
+                    </p>
+                    <h2 class="display-6">Let's create something fun!</h2>
+                </section>
+            </div>
+
+        </article>
+        <!--Technologies-->
+        <article class="container py-4">
+            <header class="fs-2 fw-bolder pb-2" id="technologies">Technologies</header>
+            <section>We use typescript / vanilla typescript or react. You are welcome to pick a stack of your choice
+                should
+                you be
+                an advanced
+                user. For small projects, we are okay with javascript / typescript. For more complex projects and
+                projects
+                are
+                mid-size and beyond, we recommend using react.
+            </section>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <section class="col">
+                    <div class="card h-100 border-dark border-2 rounded-4">
+                        <img src="images/mongodb.svg" class="card-img-top" alt="mongodb - database layer">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title fs-3">Mongodb</h2>
+                            <p class="card-text align-baseline">This is a NoSQL solution for storing data</p>
+                            <a href="https://www.mongodb.org" class="d-inline-block mt-auto">Learn more about
+                                mongodb</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card h-100 border-dark border-2 rounded-4">
+                        <img src="images/express-js.svg" class="card-img-top" alt="expressjs - api layer">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title fs-3">Express.js</h2>
+                            <p class="card-text align-baseline">Fast, unopionated, minimalist web framework for
+                                Node.js</p>
+                            <a href="https://www.expressjs.com" class="d-inline-block mt-auto">Learn more about
+                                express.js</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card h-100 border-dark border-2 rounded-4">
+                        <img src="images/react-logo.svg" class="card-img-top" alt="reactjs - frontend ui library">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title fs-3">React</h2>
+                            <p class="card-text">Frontend UI library from Meta (facebook) for building web and native
+                                user
+                                interfaces</p>
+                            <a href="https://www.react.dev" class="d-inline-block mt-auto">Learn more about react</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card h-100 border-dark border-2 rounded-4">
+                        <img src="images/node.svg" class="card-img-top" alt="nodejs - supports express framework">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title fs-3">Node.js</h2>
+                            <p class="card-text align-baseline">Is an open-source, cross-platform Javascript runtime
+                                environment</p>
+                            <a href="https://www.nodejs.org" class="d-inline-block mt-auto">Learn more about node.js</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card h-100 border-dark border-2 rounded-4">
+                        <img src="images/css3.svg" class="card-img-top" alt="css3 - styling components of webpage">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title fs-3">CSS3</h2>
+                            <p class="card-text">CSS is used for styling contents of a webpage.</p>
+                            <a href="https://www.w3.org/TD/CSS/#css" class="d-inline-block mt-auto">Learn more about
+                                css3</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card h-100 border-dark border-2 rounded-4">
+                        <img src="images/html.svg" class="card-img-top" alt="html 5 - for building webpage structure">
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="card-title fs-3">HTML 5</h2>
+                            <p class="card-text">Web structure is built using html 5.</p>
+                            <a href="https://www.developer.mozilla.org/en-US/docs/Glossary/HTML5"
+                               class="d-inline-block mt-auto">Learn more about html5</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <!--Testimonials -->
+        <article class="container py-4">
+            <div class="container">
+                <h1 class="fs-2 fw-bolder pb-2" id="testimonials">Testimonials</h1>
+            </div>
+            <div id="carousel-with-captions" class="carousel slide ps-0" data-bs-theme="dark">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#carousel-with-captions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Review by Jurica Koletic"></button>
+                    <button data-bs-target="#carousel-with-captions" data-bs-slide-to="1"
+                            aria-label="Review by Imansyah Muhamadc"></button>
+                    <button data-bs-target="#carousel-with-captions" data-bs-slide-to="2"
+                            aria-label="Review by Joseph Gonzalez"></button>
+                    <button data-bs-target="#carousel-with-captions" data-bs-slide-to="3"
+                            aria-label="Review by Andrea Piacquadio"></button>
+                </div>
+                <div class="carousel-inner pb-5">
+                    <section class="carousel-item active">
+                        <div class="d-flex flex-column flex-sm-row justify-content-lg-center">
+                            <div class="carousel-image" id="jurica-koletic" role="img"
+                                 aria-label="Jurica Koletic smiling while reviewing his experience">
+                                &nbsp;
+                            </div>
+                            <div class="ps-2 d-flex flex-column justify-content-sm-center">
+                                <div class="fs-6 text-primary"><i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i></div>
+                                <h1 class="fs-6">Truly a rocket ship.</h1>
+                                <h2 class="fs-6 fw-bolder">Jurica Koletic</h2>
+                                <h2 class="fs-6 fw-bolder">Founder @ Flexbox</h2>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="carousel-item">
+                        <div class="d-flex flex-column flex-sm-row justify-content-lg-center">
+                            <div class="carousel-image" id="imansyah-muhamad"
+                                 role="img"
+                                 aria-label="Imansyah Muhamadc being clear about his review, even after a long day at work.">
+                                &nbsp;
+                            </div>
+                            <div class="ps-2 d-flex flex-column justify-content-sm-center">
+                                <div class="fs-6 text-primary"><i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i></div>
+                                <h1 class="fs-6">24x7 work schedule FTW!</h1>
+                                <h2 class="fs-6 fw-bolder">Imansyah Muhamadc</h2>
+                                <h2 class="fs-6 fw-bolder">Product Manager @ Grids Inc.</h2>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="carousel-item">
+                        <div class="d-flex flex-column flex-sm-row justify-content-lg-center">
+                            <div class="carousel-image" id="joseph-gonzalez"
+                                 role="img" aria-label="Joseph Gonzalez smiling while providing the review.">
+                                &nbsp;
+                            </div>
+                            <div class="ps-2 d-flex flex-column justify-content-sm-center">
+                                <div class="fs-6 text-primary"><i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i></div>
+                                <h1 class="fs-6">The delivery schedule is flawless.</h1>
+                                <h2 class="fs-6 fw-bolder">Joseph Gonzalez</h2>
+                                <h2 class="fs-6 fw-bolder">Software architect @ Shands hospital</h2>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="carousel-item">
+                        <div class="d-flex flex-column flex-sm-row justify-content-lg-center">
+                            <div class="carousel-image" id="andrea-piacquadio"
+                                 aria-label="Andrea Piacquadio being relaxing on a couch and being happy that the project is over.">
+                                &nbsp;
+                            </div>
+                            <div class="ps-2 d-flex flex-column justify-content-sm-center">
+                                <div class="fs-6 text-primary"><i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i>
+                                    <i class="bi-star-fill" aria-label="Single star"></i></div>
+                                <h1 class="fs-6">The website they made is magic.</h1>
+                                <h2 class="fs-6 fw-bolder">Andrea Piacquadio</h2>
+                                <h2 class="fs-6 fw-bolder">Engineering Manager @ Jumpers.co </h2>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <button class="carousel-control-prev position-absolute"
+                        data-bs-target="#carousel-with-captions"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel-with-captions"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </article>
+
+        <!--FAQ -->
+        <article class="container py-4">
+            <h1 class="fs-2 fw-bolder pb-2" id="faq">FAQ</h1>
+            <div class="row">
+                <div class="col-md-6 questions__img side-img"
+                     role="img" aria-label="3 people asking questions.">
+                    &nbsp;
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="row">
+                        <section class="col-12 col-xl-6">
+                            <section class="accordion accordion-flush" id="question-set-1">
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#question-1" aria-expanded="false"
+                                                aria-controls="question-1">
+                                            What do I need to know before contacting you?
+                                        </button>
+                                    </h2>
+                                    <div id="question-1" class="accordion-collapse collapse"
+                                         data-bs-parent="#question-set-1">
+                                        <div class="accordion-body">
+                                            We ask that you bring as many details as possible to help us better
+                                            understand
+                                            the
+                                            project.
+                                            This could involve things like:
+                                            <ul>
+                                                <li>Sketches</li>
+                                                <li>Written notes</li>
+                                                <li>Voice / video recordings</li>
+                                                <li>Images</li>
+                                                <li>Links to online resources</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#question-2" aria-expanded="false"
+                                                aria-controls="question-2">
+                                            Do I need to be tech-savvy to work with you?
+                                        </button>
+                                    </h2>
+                                    <div id="question-2" class="accordion-collapse collapse"
+                                         data-bs-parent="#question-set-1">
+                                        <div class="accordion-body">
+                                            <strong>No.</strong> While we have the chops to understand every technical
+                                            term
+                                            you
+                                            can throw at us, all we need is for you to work with us to help us
+                                            understand
+                                            what
+                                            you need. You can count on us to deliver the delightful experience.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item  border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#question-3" aria-expanded="false"
+                                                aria-controls="question-3">
+                                            How long can I expect for a project to be delivered?
+                                        </button>
+                                    </h2>
+                                    <div id="question-3" class="accordion-collapse collapse"
+                                         data-bs-parent="#question-set-1">
+                                        <div class="accordion-body">
+                                            It depends on your requirements. We've delivered projects in a week which
+                                            had a
+                                            small scope. Some of our larger projects have taken upto 8 months to
+                                            deliver. To
+                                            ensure that we don't keep you waiting for 8months, incremental updates are
+                                            an
+                                            option
+                                            to consider with us. This way, parts of your final website are made to go
+                                            live
+                                            as
+                                            soon as possible.
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </section>
+                        <section class="col-12 col-xl-6">
+                            <div class="accordion accordion-flush" id="question-set-2">
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#question-4" aria-expanded="false"
+                                                aria-controls="question-4">
+                                            How good is your product quality?
+                                        </button>
+                                    </h2>
+                                    <div id="question-4" class="accordion-collapse collapse"
+                                         data-bs-parent="#question-set-2">
+                                        <div class="accordion-body">
+                                            <p>Every project is backed by a development team and a test team. We take
+                                                quality
+                                                seriously. You will be part of our biweekly meeting summary to know how
+                                                we
+                                                ensure
+                                                high
+                                                quality finish of the current iteration.</p>
+                                            <p>If you want something changed / improved, we catch it there and make it
+                                                happen.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#question-5" aria-expanded="false"
+                                                aria-controls="question-5">
+                                            What are your office hours?
+                                        </button>
+                                    </h2>
+                                    <div id="question-5" class="accordion-collapse collapse"
+                                         data-bs-parent="#question-set-2">
+                                        <div class="accordion-body">
+                                            We are open 24x7. Your project will be handled by 2 teams (day / night). See
+                                            the
+                                            contacts
+                                            section to get in touch with us anytime.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#question-6" aria-expanded="false"
+                                                aria-controls="question-6">
+                                            What happens if my requirements change after the order is finalized?
+                                        </button>
+                                    </h2>
+                                    <div id="question-6" class="accordion-collapse collapse"
+                                         data-bs-parent="#question-set-2">
+                                        <div class="accordion-body">
+                                            We'll work with you to assess the changes and commit to a new delivery date.
+                                            Additional charges will apply based on scope of the changes.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!--send message-->
+        <section class="container py-4">
+            <header class="fs-2 fw-bolder pb-2" id="send-message">Message</header>
+            <div class="row">
+                <div class="col-md-6 contact-us__img side-img" role="img"
+                     aria-label="Lady talking over phone and checking her messages on a tablet.">
+                    &nbsp;
+                </div>
+                <div class="col-md-6">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-lg-6">
+                            <label for="customer_name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="customer_name" name="customer_name"
+                                   autocomplete="name" required>
+                            <div class="valid-feedback">Looks good.</div>
+                            <div class="invalid-feedback">Please share your name with us to better serve you.</div>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                   autocomplete="email" required>
+                            <div class="valid-feedback">Looks good.</div>
+                            <div class="invalid-feedback">Please share your email for us to reply to you.</div>
+                        </div>
+                        <div class="col-12">
+                            <label for="reason" class="form-label">Reason</label>
+                            <select class="form-select" id="reason" name="reason" aria-label="Reason for contacting"
+                                    required>
+                                <option selected></option>
+                                <option value="Ask an initial quote">Ask an initial quote</option>
+                                <option value="Followup meeting request">Followup meeting request</option>
+                                <option value="Post handover issue">Post handover issue</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="valid-feedback">Looks good.</div>
+                            <div class="invalid-feedback">Please pick a reason for contacting us</div>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            <div class="valid-feedback">Looks good.</div>
+                            <div class="invalid-feedback">Please tell why you're contacting us.</div>
+                        </div>
+                        <div class="col-12 d-grid">
+                            <button type="submit" class="btn btn-primary fw-bolder">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="py-4 border-top border-3 border-primary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <header class="fs-6 fw-bold">QUICK LINKS</header>
+                    <ul class="list-group bg-transparent">
+                        <li class="list-group-item border-0 bg-transparent"><a CLASS="text-decoration-none fw-bold"
+                                                                               href="#about-us">About</a></li>
+                        <li class="list-group-item border-0 bg-transparent"><a CLASS="text-decoration-none fw-bold"
+                                                                               href="#technologies">Technologies</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent"><a CLASS="text-decoration-none fw-bold"
+                                                                               href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent"><a CLASS="text-decoration-none fw-bold"
+                                                                               href="#faq">FAQ</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent"><a CLASS="text-decoration-none fw-bold"
+                                                                               href="#send-message">Message</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <header class="fs-6 fw-bold">CONTACT US</header>
+                    <div class="pb-4">
+                        <div class="text-info-emphasis">Phone</div>
+                        <div class="fst-italic">+91-98450-98689</div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="text-info-emphasis">Email</div>
+                            <div class="fst-italic">hello@codeup.com</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary text-center rounded-circle d-none" id="go-to-top">
+            <i class="bi-chevron-up" aria-label="Go to top">
+                <span class="visually-hidden">Top</span>
+            </i>
+        </button>
+    </footer>
+</div>
+
+</body>
+</html>
