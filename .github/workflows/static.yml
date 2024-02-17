@@ -37,7 +37,7 @@ jobs:
           node-version: 20
       - run: |
               cd c5_hw2
-              npm ci
+              npm install
               npm run sass:build
       - name: Setup Pages
         uses: actions/configure-pages@v4
