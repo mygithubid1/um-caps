@@ -20094,6 +20094,10 @@ html, body {
   min-height: 100%;
 }
 
+nav, footer {
+  flex-shrink: 0 !important;
+}
+
 textarea {
   resize: none;
 }

@@ -10,9 +10,9 @@
 </head>
 <body>
 
-<div id="wrapper" class="d-flex flex-column" data-bs-spy="scroll" data-bs-target="#company-navbar">
+<div id="wrapper" class="d-flex flex-column">
 
-    <nav class="navbar navbar-expand-md bg-body fixed-top border-bottom border-3 border-primary">
+    <nav id="company-navbar" class="navbar navbar-expand-md bg-body fixed-top border-bottom border-3 border-primary">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/company-logo.svg" alt="Code up company logo" width="30" height="30"
@@ -24,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="nav nav-pills me-auto fw-bolder" id="company-navbar">
+                <ul class="nav nav-pills me-auto fw-bolder">
                     <li class="nav-item">
                         <a class="nav-link" href="#about-us">About</a>
                     </li>
@@ -45,7 +45,7 @@
         </div>
     </nav>
 
-    <div class="flex-grow-1 pt-5">
+    <div class="flex-grow-1 pt-5" data-bs-spy="scroll" data-bs-target="#company-navbar">
         <article class="container py-4">
             <header class="fs-2 fw-bolder pb-2" id="about-us">About</header>
             <div class="row">
@@ -158,9 +158,7 @@
 
         <!--Testimonials -->
         <article class="container py-4">
-            <div class="container">
-                <h1 class="fs-2 fw-bolder pb-2" id="testimonials">Testimonials</h1>
-            </div>
+            <header class="fs-2 fw-bolder pb-2" id="testimonials">Testimonials</header>
             <div id="carousel-with-captions" class="carousel slide ps-0" data-bs-theme="dark">
                 <div class="carousel-indicators">
                     <button data-bs-target="#carousel-with-captions" data-bs-slide-to="0" class="active"
@@ -268,7 +266,7 @@
 
         <!--FAQ -->
         <article class="container py-4">
-            <h1 class="fs-2 fw-bolder pb-2" id="faq">FAQ</h1>
+            <header class="fs-2 fw-bolder pb-2" id="faq">FAQ</header>
             <div class="row">
                 <div class="col-md-6 questions__img side-img"
                      role="img" aria-label="3 people asking questions.">
