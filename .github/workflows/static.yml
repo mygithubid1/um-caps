@@ -40,8 +40,7 @@ jobs:
               npm install
               npm run sass:build
       - name: Print location
-      - run: ls
-      - run: pwd
+        run: ls
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
