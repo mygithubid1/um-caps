@@ -39,6 +39,9 @@ jobs:
               cd c5_hw2
               npm install
               npm run sass:build
+      - name: Print location
+      - run: ls
+      - run: pwd
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
